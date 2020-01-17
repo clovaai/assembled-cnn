@@ -4,6 +4,13 @@
 [paper](TBA) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing)
 Official Tensorflow implementation  
 
+[Jungkyu Lee](mailto:jungkyu.lee@navercorp.com),Taeryun Won,Kiho Hong
+
+
+Clova Vision, NAVER Corp.
+
+
+
 Abstract: Recent studies in image classification have demonstrated a variety of techniques for improving the performance 
 of Convolutional Neural Networks (CNNs). However, attempts to combine existing techniques to create a practical model 
 are still uncommon. In this study, we carry out extensive experiments to validate that carefully assembling these techniques 
