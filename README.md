@@ -4,7 +4,7 @@
 [paper](TBA) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing)
 Official Tensorflow implementation  
 
-[Jungkyu Lee](mailto:jungkyu.lee@navercorp.com),Taeryun Won,Kiho Hong
+[Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), Taeryun Won, Kiho Hong
 
 
 Clova Vision, NAVER Corp.
