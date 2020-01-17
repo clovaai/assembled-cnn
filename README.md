@@ -4,14 +4,14 @@
 [paper](TBA) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing)
 Official Tensorflow implementation  
 
-[Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), Taeryun Won, Kiho Hong
-
-
-Clova Vision, NAVER Corp.
+> [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)<br/>
+> Clova Vision, NAVER Corp.
 
 
 
-Abstract: Recent studies in image classification have demonstrated a variety of techniques for improving the performance 
+**Abstract**
+
+*Recent studies in image classification have demonstrated a variety of techniques for improving the performance 
 of Convolutional Neural Networks (CNNs). However, attempts to combine existing techniques to create a practical model 
 are still uncommon. In this study, we carry out extensive experiments to validate that carefully assembling these techniques 
 and applying them to a basic CNN model in combination can improve the accuracy and robustness of the model while minimizing 
@@ -21,18 +21,25 @@ throughput only decreases from 536 to 312. The resulting model significantly out
 accuracy in terms of mCE and inference throughput. To verify the performance improvement in transfer learning, 
 fine grained classification and image retrieval tasks were tested on several open datasets and showed that the improvement 
 to backbone network performance boosted transfer learning performance significantly. Our approach achieved 1st place 
-in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019  
+in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
 
-<img src="./figures/summary_architecture.png" align="center" width="500" title="summary_table" >
-
+<p align="center">
+  <img src="./figures/summary_architecture.png" align="center" width="500" title="summary_table" >
+</p>
 
 ## Main Results
 
 ### Summary of key results
-<img src="./figures/summary_table.png" align="center" width="500" title="summary_table" >
+
+<p align="center">
+ <img src="./figures/summary_table.png" align="center" width="500" title="summary_table" >
+</p>
 
 ### Ablation Study
-<img src="./figures/ablation_study_imagenet.png" align="center" width="1000" title="summary_table">
+
+<p align="center">
+  <img src="./figures/ablation_study_imagenet.png" align="center" width="1000" title="summary_table">
+</p>
 
 ## Honors
 
