@@ -105,7 +105,7 @@ $ ./scripts/train_assemble_from_scratch.sh
 ## Fine-tuning the model.
 
 In the previous section, you train the pretrained model from scratch.
-You can also download pretrained model to finetune from [here](google drive).
+You can also download pretrained model to finetune from [here](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing).
 
 Fine-tune vanila ResNet50 on Food101.
 
@@ -134,10 +134,6 @@ This implementation is based on these repository:
 * resnet official: https://github.com/tensorflow/models/tree/master/official/r1/resnet
 * mce: https://github.com/hendrycks/robustness
 * autoaugment: https://github.com/tensorflow/tpu/blob/master/models/official/efficientnet/autoaugment.py
-
-## Citation
-
-TBA
 
 ## License
 
