@@ -1,7 +1,7 @@
 # Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network
 
 
-[paper](TBA) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing)
+[paper](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing)
 Official Tensorflow implementation  
 
 > [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)<br/>
@@ -41,7 +41,13 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
   <img src="./figures/ablation_study_imagenet.png" align="center" width="1000" title="summary_table">
 </p>
 
-## Honors
+### Transfer learning
+
+<p align="center">
+  <img src="./figures/FGVC.png" align="center" width="700" title="FGVC">
+</p>
+
+## Honor
 
 Based on our repository, we achieved 1st place in [iFood Competition Fine-Grained Visual Recognition at CVPR 2019](https://www.kaggle.com/c/ifood-2019-fgvc6/leaderboard).
 
@@ -90,7 +96,9 @@ CUDA_VISIBLE_DEVICES=1 python main_classification.py \
 The expected final output is:
 
 ```
+...
 | accuracy:   0.841860 |
+...
 ```
 
 ## Training a model from scratch.
@@ -141,6 +149,19 @@ This implementation is based on these repository:
 * resnet official: https://github.com/tensorflow/models/tree/master/official/r1/resnet
 * mce: https://github.com/hendrycks/robustness
 * autoaugment: https://github.com/tensorflow/tpu/blob/master/models/official/efficientnet/autoaugment.py
+
+## Citation
+
+```
+@misc{lee2020compounding,
+    title={Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network},
+    author={Jungkyu Lee and Taeryun Won and Kiho Hong},
+    year={2020},
+    eprint={2001.06268},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 
 ## License
 
