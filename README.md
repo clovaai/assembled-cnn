@@ -47,9 +47,10 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
   <img src="./figures/FGVC.png" align="center" width="700" title="FGVC">
 </p>
 
-## Honor
+## Honors
 
-Based on our repository, we achieved 1st place in [iFood Competition Fine-Grained Visual Recognition at CVPR 2019](https://www.kaggle.com/c/ifood-2019-fgvc6/leaderboard).
+* Based on our repository, we achieved 1st place in [iFood Competition Fine-Grained Visual Recognition at CVPR 2019](https://www.kaggle.com/c/ifood-2019-fgvc6/leaderboard).
+* Assemble-ResNet50 achieve state-of-the-art with a ResNet-50 backbone on [ImageNet-C Leaderboard](https://github.com/hendrycks/robustness#imagenet-c-leaderboard)
 
 ## Getting Started
 
@@ -149,6 +150,9 @@ This implementation is based on these repository:
 * resnet official: https://github.com/tensorflow/models/tree/master/official/r1/resnet
 * mce: https://github.com/hendrycks/robustness
 * autoaugment: https://github.com/tensorflow/tpu/blob/master/models/official/efficientnet/autoaugment.py
+
+## Contact
+Feel free to create a issue or contact me if there is any question (Jungkyu Lee jungkyu.lee@navercorp.com).
 
 ## Citation
 
