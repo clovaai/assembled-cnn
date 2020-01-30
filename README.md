@@ -50,7 +50,7 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
 ## Honors
 
 * Based on our repository, we achieved 1st place in [iFood Competition Fine-Grained Visual Recognition at CVPR 2019](https://www.kaggle.com/c/ifood-2019-fgvc6/leaderboard).
-* Assemble-ResNet50 achieve state-of-the-art with a ResNet-50 backbone on [ImageNet-C Leaderboard](https://github.com/hendrycks/robustness#imagenet-c-leaderboard)
+* Our approach achieve state-of-the-art with a ResNet-50 backbone on [ImageNet-C Leaderboard](https://github.com/hendrycks/robustness#imagenet-c-leaderboard)
 
 ## Getting Started
 
