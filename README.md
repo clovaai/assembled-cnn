@@ -27,6 +27,7 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
   <img src="./figures/summary_architecture.png" align="center" width="500" title="summary_table" >
 </p>
 
+
 ## Main Results
 
 ### Summary of key results
@@ -76,9 +77,29 @@ We assume you already have the following data:
 
 First, download pretrained models from [here](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing).
 
+For Assemble-ResNet50, 
+
 ```bash
 DATA_DIR=/path/to/imagenet2012/tfrecord
-MODEL_DIR=/path/pretrained/checkpoint
+MODEL_DIR=/path/Assemble-ResNet50/checkpoint
+CUDA_VISIBLE_DEVICES=1 python main_classification.py \
+--eval_only=True \
+--dataset_name=imagenet \
+--data_dir=${DATA_DIR} \
+--model_dir=${MODEL_DIR} \
+--preprocessing_type=imagenet_224_256 \
+--resnet_version=2 \
+--resnet_size=50 \
+--use_sk_block=True \
+--anti_alias_type=sconv \
+--anti_alias_filter_size=3 
+```
+
+For Assemble-ResNet152, 
+
+```bash
+DATA_DIR=/path/to/imagenet2012/tfrecord
+MODEL_DIR=/path/Assemble-ResNet152/checkpoint
 CUDA_VISIBLE_DEVICES=1 python main_classification.py \
 --eval_only=True \
 --dataset_name=imagenet \
@@ -94,7 +115,10 @@ CUDA_VISIBLE_DEVICES=1 python main_classification.py \
 --anti_alias_filter_size=3 
 ```
 
-The expected final output is:
+For Assemble-ResNet 152, `preprocessing_type=imagenet_224_256a`(resize the shorter size of each image to 257 pixels while
+the aspect ratio is maintained. Next, we center crop the image to the 256x256 size) performed better.
+
+The expected final output is`
 
 ```
 ...
