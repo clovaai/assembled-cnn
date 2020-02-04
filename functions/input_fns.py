@@ -103,7 +103,8 @@ def input_fn_cls(is_training, use_random_crop, num_epochs, flags_obj):
 
   batch_size = distribution_utils.per_device_batch_size(batch_size, flags_core.get_num_gpus(flags_obj))
   filenames_sup = data_util.get_filenames(is_training, flags_obj.data_dir,
-                                          train_regex=flags_obj.train_regex)
+                                          train_regex=flags_obj.train_regex,
+                                          val_regex=flags_obj.val_regex)
   tf.logging.info('The # of Supervised tfrecords: {}'.format(len(filenames_sup)))
   dataset_meta = data_config.get_config(flags_obj.dataset_name)
   datasets = []
