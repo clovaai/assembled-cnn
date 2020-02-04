@@ -1,7 +1,7 @@
 
 # KD walkthrough
 
-We do not compute the logit of the teacher in real time, but compute the logit of the teacher offline and make it a TFRecord.
+We do not compute the logit of the teacher in real time, but compute the logit of the teacher offline and write it into TFRecord.
 it can't calculate logit based on the data augmentation performed in real time, but in our experiment it worked fine.
 
 
