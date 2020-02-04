@@ -1,6 +1,11 @@
 
 # KD walkthrough
 
+We do not compute the logit of the teacher in real time, but compute the logit of the teacher offline and make it a TFRecord.
+it can't calculate logit based on the data augmentation performed in real time, but in our experiment it worked fine.
+
+
+
 0. We assume that you prepare raw images and TFRecord files ImageNet2012 in the following path.
 
 ```bash
