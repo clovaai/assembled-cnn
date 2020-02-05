@@ -91,9 +91,19 @@ CUDA_VISIBLE_DEVICES=1 python main_classification.py \
 --resnet_version=2 \
 --resnet_size=50 \
 --use_sk_block=True \
+--use_resnet_d==False \
 --anti_alias_type=sconv \
 --anti_alias_filter_size=3 
 ```
+
+Note that `use_resnet_d==False`.
+We have implemented BigLittleNet with reference to the official implementation of [BigLittleNet](https://github.com/IBM/BigLittleNet)
+We found that BigLittleNet's official implementation already includes the concept of resnet-d.
+that is, in both [`resnet_d_projection_shortcut`](https://github.com/clovaai/assembled-cnn/blob/master/nets/resnet_model.py#L123) and [`bl_projection_shortcut`](https://github.com/clovaai/assembled-cnn/blob/master/nets/resnet_model.py#L133), a average
+pooling layer has been added with a stride of 2 before the convolution(except pooling size is different).
+So we described it in the paper as D + BL.
+However, when using BL, we did not use tweak that replaces 7x7 convolution with three 3x3 conv(so it become `use_resnet_d=False`) because it made training unstable.
+I thought it was a little tricky.  We will further explain it in the v2 version of our paper.
 
 For Assemble-ResNet152, 
 
