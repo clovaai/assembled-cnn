@@ -48,10 +48,21 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
   <img src="./figures/FGVC.png" align="center" width="700" title="FGVC">
 </p>
 
+
 ## Honors
 
 * Based on our repository, we achieved 1st place in [iFood Competition Fine-Grained Visual Recognition at CVPR 2019](https://www.kaggle.com/c/ifood-2019-fgvc6/leaderboard).
 * Our approach achieve state-of-the-art with a ResNet-50 backbone on [ImageNet-C Leaderboard](https://github.com/hendrycks/robustness#imagenet-c-leaderboard)
+
+## Related links
+
+Thankfully some people have written testimonial and  posts related to our paper.
+
+* [Jeremy Howard's  testimonial tweet](https://twitter.com/jeremyphoward/status/1219695492927328256)
+* [Stan Kriventsov's summary post](https://dl.reviews/2020/01/26/compounding-resnet-improvements/)
+* [akira's summary post](https://medium.com/analytics-vidhya/assemble-resnet-that-is-5-times-faster-with-the-same-accuracy-as-efficientnet-b6-autoaugment-c752f1835c38)
+* [norman3(one of authurs)'s korean version paper](https://norman3.github.io/papers/docs/assembled_cnn)
+
 
 ## Getting Started
 
