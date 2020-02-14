@@ -35,7 +35,7 @@ from official.utils.flags import core as flags_core
 from official.utils.logs import hooks_helper
 from official.utils.logs import logger
 from official.utils.misc import model_helpers
-from utils import checkpoint_utils
+# from utils import checkpoint_utils
 from utils import data_util
 from utils import export_utils
 from utils.hook_utils import *
