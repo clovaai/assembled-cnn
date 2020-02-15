@@ -44,6 +44,7 @@ def get_distribution_strategy(num_gpus, all_reduce_alg=None):
           cross_tower_ops=tf.contrib.distribute.AllReduceCrossTowerOps(
               all_reduce_alg, num_packs=num_gpus))
     else:
+      tf.logging.info('Mirrored Strategy {} gpus'.format(num_gpus))
       return tf.contrib.distribute.MirroredStrategy(num_gpus=num_gpus)
 
 
