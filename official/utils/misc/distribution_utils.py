@@ -35,8 +35,8 @@ def get_distribution_strategy(num_gpus, all_reduce_alg=None):
   """
   if num_gpus == 0:
     return tf.contrib.distribute.OneDeviceStrategy("device:CPU:0")
-  elif num_gpus == 1:
-    return tf.contrib.distribute.OneDeviceStrategy("device:GPU:0")
+  # elif num_gpus == 1:
+  #   return tf.contrib.distribute.OneDeviceStrategy("device:GPU:0")
   else:
     if all_reduce_alg:
       return tf.contrib.distribute.MirroredStrategy(
