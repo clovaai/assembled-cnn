@@ -86,6 +86,13 @@ class Flower102(Default):
   }
   dataset_name = 'oxford_flowers102'
 
+class Flower104(Default):
+  num_classes = 104
+  num_images = {
+    'train': 12753,
+    'validation': 3712,
+  }
+  dataset_name = 'kaggle_flower'
 
 class Cars196(Default):
   num_classes = 196
@@ -144,5 +151,7 @@ def get_config(data_name):
     return StanfordOnlineProduct()
   elif data_name == 'iFood2019':
     return iFood2019()
+  elif data_name == 'kaggle_flower':
+    return Flower102()
   else:
     raise ValueError("Unable to support {} dataset.".format(data_name))
