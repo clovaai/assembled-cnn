@@ -1,7 +1,9 @@
 # Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network
 
 
-[paper](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing)
+[paper](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing) |
+tutorial  ([![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11GJf-frlk_mj30h_cZoRJZ5W6j2lO9HM))
+
 Official Tensorflow implementation  
 
 > [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)<br/>
