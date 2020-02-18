@@ -64,7 +64,7 @@ Thankfully some people have written testimonial and  posts related to our paper.
 * [akira's summary post](https://medium.com/analytics-vidhya/assemble-resnet-that-is-5-times-faster-with-the-same-accuracy-as-efficientnet-b6-autoaugment-c752f1835c38)
 * [norman3(one of authurs)'s korean version paper](https://norman3.github.io/papers/docs/assembled_cnn)
 
-## Tutoial: Fine-Tuning on Oxford-flower102
+## Tutorial: Fine-Tuning on Oxford-flower102
 
 As first try, you can fine-tune your flower classifier in colab.
  
