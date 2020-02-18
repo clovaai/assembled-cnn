@@ -1,8 +1,7 @@
 # Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network
 
 
-[paper](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing) |
-tutorial  ([![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11GJf-frlk_mj30h_cZoRJZ5W6j2lO9HM))
+[paper](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing) 
 
 Official Tensorflow implementation  
 
@@ -64,6 +63,12 @@ Thankfully some people have written testimonial and  posts related to our paper.
 * [Stan Kriventsov's summary post](https://dl.reviews/2020/01/26/compounding-resnet-improvements/)
 * [akira's summary post](https://medium.com/analytics-vidhya/assemble-resnet-that-is-5-times-faster-with-the-same-accuracy-as-efficientnet-b6-autoaugment-c752f1835c38)
 * [norman3(one of authurs)'s korean version paper](https://norman3.github.io/papers/docs/assembled_cnn)
+
+## Tutoial: Fine-Tuning on Oxford-flower102
+
+As first try, you can fine-tune your flower classifier in colab.
+ 
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11GJf-frlk_mj30h_cZoRJZ5W6j2lO9HM)
 
 
 ## Getting Started
