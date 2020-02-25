@@ -24,6 +24,10 @@ fine grained classification and image retrieval tasks were tested on several ope
 to backbone network performance boosted transfer learning performance significantly. Our approach achieved 1st place 
 in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
 
+<p align="center">
+  <img src="./figures/summary_architecture.png" align="center" width="1000" title="summary_architecture">
+</p>
+
 
 ## Main Results
 
@@ -32,6 +36,7 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
 <p align="center">
  <img src="./figures/summary_table.png" align="center" width="500" title="summary_table" >
 </p>
+
 
 ### Ablation Study
 
