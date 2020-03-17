@@ -13,7 +13,7 @@ Official Tensorflow implementation
 
 **Abstract**
 
-* Recent studies in image classification have demonstrated 
+> Recent studies in image classification have demonstrated 
 a variety of techniques for improving the performance of
 Convolutional Neural Networks (CNNs). However, attempts to combine existing techniques to create a practical model are still uncommon. In this study, we carry out
 extensive experiments to validate that carefully assembling
@@ -24,7 +24,7 @@ from 76.0% to 48.9% and mFR from 57.7% to 32.3% on
 ILSVRC2012 validation set. With these improvements, inference throughput only decreases from 536 to 312. To verify the performance improvement in transfer learning, fine
 grained classification and image retrieval tasks were tested
 on several public datasets and showed that the improvement
-to backbone network performance boosted transfer learning performance significantly. Our approach achieved 1st place in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019 *
+to backbone network performance boosted transfer learning performance significantly. Our approach achieved 1st place in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019
 
 <p align="center">
   <img src="./figures/summary_architecture.png" align="center" width="1000" title="summary_architecture">
