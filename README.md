@@ -1,28 +1,30 @@
 # Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network
 
 
-[paper](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing) 
+[paper v2](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing) 
 
 Official Tensorflow implementation  
 
 > [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)<br/>
+> [Tae Kwan Lee](mailto:taekwan.lee@navercorp.com), [Hyemin Lee](mailto:hmin.lee@navercorp.com), [Geonmo Gu](mailto:geonmo.gu@navercorp.com)<br/>
 > Clova Vision, NAVER Corp.
 
 
 
 **Abstract**
 
-*Recent studies in image classification have demonstrated a variety of techniques for improving the performance 
-of Convolutional Neural Networks (CNNs). However, attempts to combine existing techniques to create a practical model 
-are still uncommon. In this study, we carry out extensive experiments to validate that carefully assembling these techniques 
-and applying them to a basic CNN model in combination can improve the accuracy and robustness of the model while minimizing 
-the loss of throughput. For example, our proposed ResNet-50 shows an improvement in top-1 accuracy from 76.3% to 82.78%, 
-and mCE improvement from 76.0% to 48.9%, on the ImageNet ILSVRC2012 validation set. With these improvements, inference 
-throughput only decreases from 536 to 312. The resulting model significantly outperforms state-of-the-art models with similar 
-accuracy in terms of mCE and inference throughput. To verify the performance improvement in transfer learning, 
-fine grained classification and image retrieval tasks were tested on several open datasets and showed that the improvement 
-to backbone network performance boosted transfer learning performance significantly. Our approach achieved 1st place 
-in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
+*Recent studies in image classification have demonstrated
+a variety of techniques for improving the performance of
+Convolutional Neural Networks (CNNs). However, attempts to combine existing techniques to create a practical model are still uncommon. In this study, we carry out
+extensive experiments to validate that carefully assembling
+these techniques and applying them to basic CNN models (e.g., ResNet and MobileNet) can improve the accuracy
+and robustness of the models while minimizing the loss of
+throughput. Our proposed assembled ResNet-50 shows improvements in top-1 accuracy from 76.3% to 82.78%, mCE
+from 76.0% to 48.9% and mFR from 57.7% to 32.3% on
+ILSVRC2012 validation set. With these improvements, inference throughput only decreases from 536 to 312. To verify the performance improvement in transfer learning, fine
+grained classification and image retrieval tasks were tested
+on several public datasets and showed that the improvement
+to backbone network performance boosted transfer learning performance significantly. Our approach achieved 1st place in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019 *
 
 <p align="center">
   <img src="./figures/summary_architecture.png" align="center" width="1000" title="summary_architecture">
@@ -44,6 +46,10 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
   <img src="./figures/ablation_study_imagenet.png" align="center" width="1000" title="summary_table">
 </p>
 
+<p align="center">
+  <img src="./figures/ablation_study_mobilenet.png" align="center" width="1000" title="summary_table">
+</p>
+
 ### Transfer learning
 
 <p align="center">
@@ -51,10 +57,9 @@ in the iFood Competition Fine-Grained Visual Recognition at CVPR 2019.*
 </p>
 
 
-## Honors
+## Honor
 
 * Based on our repository, we achieved 1st place in [iFood Competition Fine-Grained Visual Recognition at CVPR 2019](https://www.kaggle.com/c/ifood-2019-fgvc6/leaderboard).
-* Our approach achieve state-of-the-art with a ResNet-50 backbone on [ImageNet-C Leaderboard](https://github.com/hendrycks/robustness#imagenet-c-leaderboard)
 
 ## Related links
 
