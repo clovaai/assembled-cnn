@@ -5,7 +5,7 @@
 
 Official Tensorflow implementation  
 
-> [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)<br/>
+> [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)
 > [Tae Kwan Lee](mailto:taekwan.lee@navercorp.com), [Hyemin Lee](mailto:hmin.lee@navercorp.com), [Geonmo Gu](mailto:geonmo.gu@navercorp.com)<br/>
 > Clova Vision, NAVER Corp.
 
@@ -13,7 +13,7 @@ Official Tensorflow implementation
 
 **Abstract**
 
-*Recent studies in image classification have demonstrated
+* Recent studies in image classification have demonstrated 
 a variety of techniques for improving the performance of
 Convolutional Neural Networks (CNNs). However, attempts to combine existing techniques to create a practical model are still uncommon. In this study, we carry out
 extensive experiments to validate that carefully assembling
