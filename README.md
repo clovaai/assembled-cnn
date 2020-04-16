@@ -7,8 +7,7 @@ Official Tensorflow implementation
 
 > [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Tae Kwan Lee](mailto:taekwan.lee@navercorp.com), 
 > [Hyemin Lee](mailto:hmin.lee@navercorp.com), [Geonmo Gu](mailto:geonmo.gu@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)<br/>
-> Clova Vision, NAVER Corp.
-
+> @NAVER/LINE Vision
 
 
 **Abstract**
