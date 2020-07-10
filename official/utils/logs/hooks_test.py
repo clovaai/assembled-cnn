@@ -1,7 +1,3 @@
-# This code is adapted from the https://github.com/tensorflow/models/tree/master/official/r1/resnet.
-# ==========================================================================================
-# NAVER’s modifications are Copyright 2020 NAVER corp. All rights reserved.
-# ==========================================================================================
 # Copyright 2017 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +26,7 @@ import tensorflow as tf  # pylint: disable=g-bad-import-order
 from official.utils.logs import hooks
 from official.utils.testing import mock_lib
 
-tf.logging.set_verbosity(tf.logging.DEBUG)
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.DEBUG)
 
 
 class ExamplesPerSecondHookTest(tf.test.TestCase):
@@ -48,9 +44,10 @@ class ExamplesPerSecondHookTest(tf.test.TestCase):
 
     self.graph = tf.Graph()
     with self.graph.as_default():
-      tf.train.create_global_step()
-      self.train_op = tf.assign_add(tf.train.get_global_step(), 1)
-      self.global_step = tf.train.get_global_step()
+      tf.compat.v1.train.create_global_step()
+      self.train_op = tf.compat.v1.assign_add(
+          tf.compat.v1.train.get_global_step(), 1)
+      self.global_step = tf.compat.v1.train.get_global_step()
 
   def test_raise_in_both_secs_and_steps(self):
     with self.assertRaises(ValueError):
@@ -75,8 +72,8 @@ class ExamplesPerSecondHookTest(tf.test.TestCase):
         warm_steps=warm_steps,
         metric_logger=self._logger)
 
-    with tf.train.MonitoredSession(
-        tf.train.ChiefSessionCreator(), [hook]) as mon_sess:
+    with tf.compat.v1.train.MonitoredSession(
+        tf.compat.v1.train.ChiefSessionCreator(), [hook]) as mon_sess:
       for _ in range(every_n_steps):
         # Explicitly run global_step after train_op to get the accurate
         # global_step value
@@ -129,8 +126,8 @@ class ExamplesPerSecondHookTest(tf.test.TestCase):
         every_n_secs=every_n_secs,
         metric_logger=self._logger)
 
-    with tf.train.MonitoredSession(
-        tf.train.ChiefSessionCreator(), [hook]) as mon_sess:
+    with tf.compat.v1.train.MonitoredSession(
+        tf.compat.v1.train.ChiefSessionCreator(), [hook]) as mon_sess:
       # Explicitly run global_step after train_op to get the accurate
       # global_step value
       mon_sess.run(self.train_op)

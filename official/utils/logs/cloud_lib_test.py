@@ -1,7 +1,3 @@
-# This code is adapted from the https://github.com/tensorflow/models/tree/master/official/r1/resnet.
-# ==========================================================================================
-# NAVER’s modifications are Copyright 2020 NAVER corp. All rights reserved.
-# ==========================================================================================
 # Copyright 2017 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
