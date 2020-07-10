@@ -1,5 +1,9 @@
 # Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network
 
+## What's New
+
+July 11, 2020
+* We reimplemented assemble-resnet with tensorflow 2.1. If you want to see the code with better readability, refer to [this branch](https://github.com/clovaai/assembled-cnn/tree/tf2.1).
 
 [paper v2](https://arxiv.org/abs/2001.06268) | [pretrained model](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing) 
 
