@@ -11,8 +11,7 @@ Official Tensorflow implementation
 
 > [Jungkyu Lee](mailto:jungkyu.lee@navercorp.com), [Taeryun Won](mailto:lory.tail@navercorp.com), [Tae Kwan Lee](mailto:taekwan.lee@navercorp.com), 
 > [Hyemin Lee](mailto:hmin.lee@navercorp.com), [Geonmo Gu](mailto:geonmo.gu@navercorp.com), [Kiho Hong](mailto:kiho.hong@navercorp.com)<br/>
-> Clova Vision, NAVER Corp.
-
+> @NAVER/LINE Vision
 
 
 **Abstract**
@@ -221,9 +220,9 @@ Feel free to create a issue or contact me if there is any question (Jungkyu Lee 
 ```
 @misc{lee2020compounding,
     title={Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network},
-    author={Jungkyu Lee and Taeryun Won and Kiho Hong},
+    author={Jungkyu Lee, Taeryun Won, Tae Kwan Lee, Hyemin Lee, Geonmo Gu, Kiho Hong},
     year={2020},
-    eprint={2001.06268},
+    eprint={2001.06268v2},
     archivePrefix={arXiv},
     primaryClass={cs.CV}
 }
