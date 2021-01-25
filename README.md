@@ -94,7 +94,7 @@ pip install Pillow sklearn requests Wand tqdm
 ### Data preparation
 
 We assume you already have the following data:
-* ImageNet2012 raw images and tfrecord. For this data, please refer to [here](https://github.com/tensorflow/models/tree/master/research/slim#an-automated-script-for-processing-imagenet-data)
+* ImageNet2012 raw images and tfrecord. For this data, please refer to [here](https://github.com/simnalamburt/models/tree/clovaai-assembled-cnn/research/slim#an-automated-script-for-processing-imagenet-data)
 * For knowledge distillation, you need to add the teacher's logits to the TFRecord according to [here](./kd/README.md)
 * For transfer learing datasets, refer to scripts in [here](./datasets)
 * To download pretrained model, visit [here](https://drive.google.com/drive/folders/1o8vj8_ZOPByjRKZzRPZMbuoKyxIwd_IZ?usp=sharing)
