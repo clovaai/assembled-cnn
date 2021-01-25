@@ -43,7 +43,7 @@ class WarmStartHook(tf.train.SessionRunHook):
       else:
         self.var_list_warm_start.append(v)
 
-    if tf.gfile.IsDirectory(self.checkpoint_path):
+    if self.checkpoint_path is not None and tf.gfile.IsDirectory(self.checkpoint_path):
       self.checkpoint_path = tf.train.latest_checkpoint(self.checkpoint_path)
 
     self.saver = tf.train.Saver(self.var_list_warm_start)
